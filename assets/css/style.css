@@ -324,116 +324,126 @@ a:hover {
         width: 80%;
     }
 }
-    @media screen and (max-width: 768px) {
-        body {
-            clear: both;
-            width: 100%;
-        }
-        #top {
-            width: 100%;
-            padding: 70px;
-        }
-        header {
-            width: 40%;
-        }
-        .nav {
-            width: 35%;
-            margin-right: 100px;
-            margin-left: 10px;
-            padding-left: 5px;
-        }
-        .bio {
-            width: 80%;
-            margin-right: 100px;
-        }
-    }
-    @media screen and (max-width: 640px) {
-        body {
-            clear: both;
-            width: 100%;
-            box-sizing: border-box;
-        }
-        #top {
-            width: 100%;
-            padding: 20px;
-        }
-        header {
-            width: 80%;
-            margin-right: 50px;
-            text-align: center;
-        }
-        .nav {
-            width: 100%;
-            margin-right: 280px;
-        }
-        .bio {
-            width: 90%;
-            margin-right: 100px;
-            height: 1750px;
-        }
-        .images {
-            position: relative;
-            width: 100%;
-        }
-        .box1 {
-            position: relative;
-            width: 300px;
-            z-index: 4;
-            padding: 20px;
-        }
-        .title {
-            position: relative;
-            width: 260px;
-            z-index: 99;
-        }
-        /* text for first image */
-        .box2 {
-            left: 0px;
-            top: -100px;
-        }
-        /* text for second image */
-        .box3 {
-            left: 0px;
-            top: -200px;
-        }
-        /* text for third image */
-        .box4 {
-            left: 0;
-            top: -300px;
-        }
-        /* text for fourth image */
-        .box5 {
-            left: 0px;
-            top: -400px;
-        }
-        /* text for fifth image */
-        .box6 {
-            left: 0;
-            top: -500px;
-        }
-        /* placement for image link  */
-        .image1 {
-            left: -80px;
-        }
-        /* placement for image link */
-        .image2 {
-            left: -80px;
-            top: -100px;
-        }
-        /* placement for image link */
-        .image3 {
-            left: -80px;
-            top: -200px;
-        }
-        /* placement for image link */
-        .image4 {
-            left: -80px;
-            top: -300px;
-        }
-        /* placement for image link */
-        .image5 {
-            left: -80px;
-            top: -400px;
-        }
 
+@media screen and (max-width: 768px) {
+    body {
+        clear: both;
+        width: 100%;
     }
+    #top {
+        width: 100%;
+        padding: 70px;
+    }
+    header {
+        width: 40%;
+    }
+    .nav {
+        width: 35%;
+        margin-right: 100px;
+        margin-left: 10px;
+        padding-left: 5px;
+    }
+    .bio {
+        width: 80%;
+        margin-right: 100px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    body {
+        clear: both;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    #top {
+        width: 100%;
+        padding: 20px;
+    }
+    header {
+        width: 80%;
+        margin-right: 50px;
+        text-align: center;
+    }
+    .nav {
+        width: 100%;
+        margin-right: 280px;
+    }
+    .bio {
+        width: 90%;
+        margin-right: 100px;
+        height: 1750px;
+    }
+    .images {
+        position: relative;
+        width: 100%;
+    }
+    .box1 {
+        position: relative;
+        width: 300px;
+        z-index: 4;
+        padding: 20px;
+    }
+    .title {
+        position: relative;
+        width: 260px;
+        z-index: 99;
+    }
+    /* text for first image */
+    .box2 {
+        left: 0px;
+        top: -100px;
+    }
+    /* text for second image */
+    .box3 {
+        left: 0px;
+        top: -200px;
+    }
+    /* text for third image */
+    .box4 {
+        left: 0;
+        top: -300px;
+    }
+    /* text for fourth image */
+    .box5 {
+        left: 0px;
+        top: -400px;
+    }
+    /* text for fifth image */
+    .box6 {
+        left: 0;
+        top: -500px;
+    }
+    /* placement for image link  */
+    .image1 {
+        left: -80px;
+    }
+    /* placement for image link */
+    .image2 {
+        left: -80px;
+        top: -100px;
+    }
+    /* placement for image link */
+    .image3 {
+        left: -80px;
+        top: -200px;
+    }
+    /* placement for image link */
+    .image4 {
+        left: -80px;
+        top: -300px;
+    }
+    /* placement for image link */
+    .image5 {
+        left: -80px;
+        top: -400px;
+    }
+    #headshot {
+        width: 75%;
+        margin-bottom: 0;
+    }
+    p {
+        width:75%;
+        margin-left:30px;
+        padding:20px;
+    }
+}
